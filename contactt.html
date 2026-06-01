@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Aishwarya Sunil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="mainNav">
+        <a class="nav-logo" href="index.html">A.S.</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="planning.html">Planning</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="contact" class="section-visible">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info reveal visible">
+                    <span class="about-label">Let's talk</span>
+                    <h2 class="contact-heading">Say hello, share a story, or <em>collaborate</em></h2>
+                    <p class="contact-text">I'm always open to talking about data science opportunities, open-source projects, book recommendations, or finding the best spots for local coffee. Drop me a note!</p>
+                    <div class="contact-socials">
+                        <a href="mailto:aishusunil09@gmail.com" class="social-link">
+                            <span class="social-icon">✉️</span> aishwarya@example.com
+                        </a>
+                        <a href="https://github.com/repos" target="_blank" class="social-link">
+                            <span class="social-icon">🐙</span> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form reveal visible">
+                    <form id="portfolioForm" novalidate>
+                        <div class="form-group">
+                            <label class="form-label" for="formName">Your Name</label>
+                            <input class="form-input" type="text" id="formName" required>
+                            <span class="form-error" id="errorName">Please share your name.</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="formEmail">Email Address</label>
+                            <input class="form-input" type="email" id="formEmail" required>
+                            <span class="form-error" id="errorEmail">Please provide a valid email format.</span>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="formMessage">Your Message</label>
+                            <textarea class="form-textarea" id="formMessage" required></textarea>
+                            <span class="form-error" id="errorMessage">Don't leave without writing a small note!</span>
+                        </div>
+                        <button class="form-submit" type="submit" id="submitBtn">Send Message →</button>
+                    </form>
+                    <div class="success-msg" id="successBlock">
+                        <div class="success-check">✨</div>
+                        <h4 class="success-title">Message Sent!</h4>
+                        <p class="success-sub">Thank you so much. I will definitely be in touch soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 <strong>Aishwarya Sunil</strong>. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

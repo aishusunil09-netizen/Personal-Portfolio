@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Logs — Aishwarya Sunil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="mainNav">
+        <a class="nav-logo" href="index.html">A.S.</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="planning.html" class="active">Planning</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <section id="planning" class="section-visible">
+        <div class="container">
+            <span class="about-label">Behind the scenes</span>
+            <h2 class="about-heading">Design System &amp; <em>Specs</em></h2>
+            
+            <div class="planning-grid">
+                <div class="plan-card">
+                    <h3 class="plan-card-title">Color Palette</h3>
+                    <p class="plan-card-sub">Earth tones balanced with lively soft accents to feel grounded yet inspired.</p>
+                    <div class="color-swatches">
+                        <div class="cs" style="background:#FAF6EF;border:0.5px solid var(--border)" title="Cream (#FAF6EF)"></div>
+                        <div class="cs" style="background:#FBF0E6" title="Light Peach (#FBF0E6)"></div>
+                        <div class="cs" style="background:#F0C4A0" title="Peach (#F0C4A0)"></div>
+                        <div class="cs" style="background:#E8845A" title="Coral (#E8845A)"></div>
+                        <div class="cs" style="background:#C9623E" title="Rust (#C9623E)"></div>
+                        <div class="cs" style="background:#D4A088" title="Mauve (#D4A088)"></div>
+                        <div class="cs" style="background:#8B6E5A" title="Tan (#8B6E5A)"></div>
+                        <div class="cs" style="background:#2E2320" title="Dark Cocoa (#2E2320)"></div>
+                    </div>
+                    <p class="palette-desc">Main background centers around warm cream, text balances cleanly on deep dark cocoa, and interactions call upon targeted rust/coral states.</p>
+                </div>
+
+                <div class="plan-card">
+                    <h3 class="plan-card-title">Wireframe Abstract</h3>
+                    <p class="plan-card-sub">Minimal grid configuration focused closely on geometric, clean asymmetric spacing layouts.</p>
+                    <div class="plan-sketch">
+                        <div class="sketch-hero"><span class="sketch-label">[ Hero Area ]</span></div>
+                        <div style="display:flex;gap:4px">
+                            <div class="sketch-bar" style="flex:1;height:40px"></div>
+                            <div class="sketch-bar" style="flex:1;height:40px"></div>
+                            <div class="sketch-bar" style="flex:1;height:40px"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-card plan-full">
+                    <h3 class="plan-card-title">Structural Component Plan</h3>
+                    <p class="plan-card-sub">Tracking breakdown of components converted from the prototype build.</p>
+                    <ul class="plan-list">
+                        <li><span class="plan-num">01</span> <strong>Global Navigation Bar:</strong> Fixed top position, features layout shifting mobile toggle engine.</li>
+                        <li><span class="plan-num">02</span> <strong>Hero Space Canvas:</strong> Embedded background math engine generating responsive vector floats.</li>
+                        <li><span class="plan-num">03</span> <strong>Asymmetric About Grid:</strong> Static sidebar tracking context while data layers scroll.</li>
+                        <li><span class="plan-num">04</span> <strong>Carousel Engine:</strong> Linear data track matching sequential coordinate array points.</li>
+                        <li><span class="plan-num">05</span> <strong>RegEx Contact Form:</strong> Input listening layout utilizing programmatic state feedback validation patterns.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 <strong>Aishwarya Sunil</strong>. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
